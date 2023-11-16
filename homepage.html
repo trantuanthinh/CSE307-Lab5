@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC BookStore</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" text="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="headerContainer">
+        <div class="headerContainer">
+          <img src=".\img\logoABCbook.png" width="300" height="150" />
+        </div>
+
+        <div class="headerContainer" id="rightHeader">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <a href="..\CSE307-Lab2\Problem6\login.html">Login</a> |
+          <a href=".\register.html">Registration</a>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <a href="">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="navContainer">
+        <div class="navContainer" id="leftNav">
+          <ul class="horizontal-list">
+            <li>
+              <a href=".\homepage.html">Home Page</a>
+            </li>
+            <li>
+              <a href="..\CSE307-Lab1\Lab1\Problem5.html">Introduction</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navContainer" id="rightNav">
+          <input type="text" placeholder="Enter the title of the book..." />
+          <input
+            type="submit"
+            value="Find books"
+            style="background-color: rgb(165, 165, 213)"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <article id="rowArticle">
+        <aside id="leftBody">
+          <div class="titleDiv">
+            <div>
+              <h2><b>BOOK BY SUBJECT</b></h2>
+            </div>
+            <div class="commonRadius">
+              <ul>
+                <li>
+                  <a href="">Foreign language</a>
+                </li>
+                <li>
+                  <a href="../CSE307-Lab2/Problem6/product.html">
+                    Information Technology
+                  </a>
+                </li>
+                <li>
+                  <a href="">Law</a>
+                </li>
+                <li>
+                  <a href="">Literature</a>
+                </li>
+                <li>
+                  <a href="">Science and Technology</a>
+                </li>
+                <li>
+                  <a href="">Agriculture</a>
+                </li>
+                <li>
+                  <a href="">History and Geography</a>
+                </li>
+                <li>
+                  <a href="">Economics</a>
+                </li>
+                <li>
+                  <a href="">Art of life</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="titleDiv">
+            <div>
+              <h2><b>BOOK BY PUBLISHER</b></h2>
+            </div>
+            <div class="commonRadius">
+              <ul>
+                <li>
+                  <a href="">Young publisher</a>
+                </li>
+                <li>
+                  <a href="">Statistics Publishing House</a>
+                </li>
+                <li>
+                  <a href="">Bronze Needle</a>
+                </li>
+                <li>
+                  <a href="">National University</a>
+                </li>
+                <li>
+                  <a href="">Artistic Craft Culture</a>
+                </li>
+                <li>
+                  <a href="">Culture</a>
+                </li>
+                <li>
+                  <a href="">Labor - Society</a>
+                </li>
+                <li>
+                  <a href="">Science & Engineering</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <section id="centerBody">
+          <div class="titleDiv">
+            <div>
+              <h2 id="textCenter">NEW BOOKS</h2>
+            </div>
+
+            <div class="productContainer">
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>Giáo trình Tin học cơ bản</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/tinhoccoban.jpg" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">126.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a
+                    href="../CSE307-Lab2/Problem6/detailProduct.html"
+                    style="color: orange"
+                  >
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>English For Tech</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/EnglishForTech.jpg" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">206.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a href="" style="color: orange">
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>BARC Computer Science</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/BARC.png" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">260.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a href="" style="color: orange">
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>The Da vin ci Code</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/Davinci.png" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">265.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a href="" style="color: orange">
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>Harry Potter</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/harrypotter.png" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">267.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a href="" style="color: orange">
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="product" id="textCenter">
+                <div class="paddingItem">
+                  <h1>
+                    <b>Giáo trình Tin học cơ bản</b>
+                  </h1>
+                </div>
+                <div class="paddingItem">
+                  <img src="./img/tinhoccoban.jpg" />
+                </div>
+                <div class="paddingItem">
+                  <p>Đơn giá: <b class="priceColor">126.000 VNĐ</b></p>
+                </div>
+                <div class="paddingItem">
+                  <a
+                    href="../CSE307-Lab2/Problem6/detailProduct.html"
+                    style="color: orange"
+                  >
+                    <button type="submit" class="buyButton">
+                      <i class="fa fa-shopping-cart"></i> ĐẶT MUA
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside id="rightBody">
+          <div class="titleDiv">
+            <h2><strong>BEST SELLER</strong></h2>
+
+            <div class="commonRadius">
+              <marquee
+                direction="up"
+                scrollamount="5"
+                scrolldelay="30"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#">
+                    <img
+                      height="100"
+                      width="100"
+                      src=".\img\EnglishForTech.jpg"
+                    />
+                    <p id="textCenter">English For Tech</p>
+                  </a>
+                </p>
+              </marquee>
+
+              <marquee
+                direction="up"
+                scrollamount="5"
+                scrolldelay="30"
+                onmousemove="stop()"
+                onmouseout="start()"
+              >
+                <p>
+                  <a href="#">
+                    <img height="100" width="100" src=".\img\BARC.png" />
+                    <p id="textCenter">BARC Computer Science</p>
+                  </a>
+                </p>
+              </marquee>
+
+              <marquee
+                direction="up"
+                scrollamount="5"
+                scrolldelay="30"
+                onmousemove="stop()"
+                onmouseout="start()"
+                ><p>
+                  <a href="#">
+                    <img height="100" width="100" src=".\img\harrypotter.png" />
+                    <p id="textCenter">Harry Potter</p>
+                  </a>
+                </p>
+              </marquee>
+            </div>
+          </div>
+
+          <div class="titleDiv">
+            <h2><strong>THE WEBSITE LINKS</strong></h2>
+
+            <div class="commonRadius" style="padding: 5px">
+              <select>
+                <option selected disabled>
+                  --- Select the linking page ---
+                </option>
+                <option>
+                  <a href=" https://lib.eiu.edu.vn/">
+                    Eastern International University Library
+                  </a>
+                </option>
+                <option>
+                  <a href=" https://eiu.edu.vn/">
+                    Eastern International University
+                  </a>
+                </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="titleDiv">
+            <h2><strong>ACCESS STATISTICS</strong></h2>
+            <div class="commonRadius" id="commonBackground">
+              <p style="color: red"><strong>Total Access:</strong></p>
+              <p style="color: red"><strong>Online:</strong></p>
+            </div>
+          </div>
+        </aside>
+      </article>
+    </div>
+  </body>
+
+  <footer>
+    <div>
+      <p>
+        <i class="fa fa-copyright" aria-hidden="true"></i>2016 - ABC
+        BookStore.Allright Reserved
+      </p>
+      <p>
+        Website is developed to be used as a hands-on exercise in Web
+        Programming
+      </p>
+      <p>Email: abcbookstore@gmail.com</p>
+    </div>
+  </footer>
+</html>
