@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABC BookStore</title>
+    <title>ABC Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -186,160 +186,45 @@
             </aside>
 
             <section id="centerBody">
-                <div class="titleDiv">
-                    <div>
-                        <h2 id="textCenter">NEW BOOKS</h2>
-                    </div>
-
-                    <div class="productContainer">
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>Giáo trình Tin học cơ bản</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/tinhoccoban.jpg" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">126.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="../CSE307-Lab2/Problem6/detailProduct.html" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
-                                    </button>
-                                </a>
+                <div class=" bg-info-subtle rounded-5 m-5">
+                    <div class="px-5 py-3 m-5">
+                        <div class="px-5 row rounded-5 bg-primary">
+                            <div class="text-center bg col p-1">
+                                <h1 class="text-black">LOGIN</h1>
                             </div>
                         </div>
 
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>English For Tech</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/EnglishForTech.jpg" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">206.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+                        <div class="row py-3 px-5">
+                            <form name="dangnhap" method="post" action="#">
+                                <div
+                                    class="input-group border-bottom border-dark-subtle border-2 px-1 py-2 bg-danger-subtle">
+                                    <span class="input-group-text">
+                                        Username
+                                    </span>
+                                    <input type="text" class="form-control" id="exampleInputPassword1" />
+                                </div>
 
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>BARC Computer Science</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/BARC.png" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">260.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+                                <div class="input-group px-1 py-2 bg-danger-subtle">
+                                    <span class="input-group-text">
+                                        Password
+                                    </span>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                                </div>
 
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>The Da vin ci Code</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/Davinci.png" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">265.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
+                                <div class="py-4 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary bg-success">
+                                        Sign in
                                     </button>
-                                </a>
-                            </div>
-                        </div>
+                                </div>
 
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>Harry Potter</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/harrypotter.png" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">267.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+                                <div class="py-2 d-flex justify-content-center">
+                                    <span>Not a member? <a href="./register.html">Register</a></span>
+                                </div>
 
-                        <div class="product" id="textCenter">
-                            <div class="paddingItem">
-                                <h1>
-                                    <b>Giáo trình Tin học cơ bản</b>
-                                </h1>
-                            </div>
-                            <div class="paddingItem">
-                                <img src="./img/tinhoccoban.jpg" />
-                            </div>
-                            <div class="paddingItem">
-                                <p>
-                                    Đơn giá:
-                                    <b class="priceColor">126.000 VNĐ</b>
-                                </p>
-                            </div>
-                            <div class="paddingItem">
-                                <a href="../CSE307-Lab2/Problem6/detailProduct.html" style="color: orange">
-                                    <button type="submit" class="buyButton">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        ĐẶT MUA
-                                    </button>
-                                </a>
-                            </div>
+                                <div class="d-flex justify-content-center">
+                                    <span><u><i><a href="#">Change Password</a></i></u></span>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,10 @@
+#navText {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+
+
 h2 {
     background-color: #206AB5;
     color: aliceblue;
@@ -11,6 +18,10 @@ footer div {
     text-align: center;
     padding-bottom: 10px;
     background-color: #A2EBB1;
+}
+
+#centerBody img:hover {
+    transform: scale(1.1);
 }
 
 a {
@@ -27,7 +38,7 @@ a:hover {
 }
 
 #rowArticle {
-    background-color: #f0f0f0;
+    background-color: #f0f0ff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -176,8 +187,7 @@ a:hover {
     flex-direction: row;
 }
 
-#rightNav {
-    flex: 1;
+#leftNav #rightNav {
     justify-content: flex-end;
     align-items: center;
 }
