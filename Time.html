@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Clock</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 100px;
+        }
+
+        #clock {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        #clock {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clock"></div>
+    <div id="today"></div>
+
+            const todayString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('clock').textContent = `Now: ${timeString}`;
+            document.getElementById('today').textContent = `Today: ${todayString}`;
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('en-US', { hour12: false });
+
+            const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+
+</html>
